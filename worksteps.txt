@@ -1,0 +1,21 @@
+[npm init -y]
+creates "package.json", which is needed to track dependencies;
+
+
+[npm install tailwindcss]
+
+----
+create folder: src, public
+create file: src/style.css 
+
+---
+script build-css tailwindcss build -i input-css-path -o output-css-path
+---
+
+create html inside public
+
+===
+npm install live-server -g
+===
+
+npx tailwindcss init
